@@ -9,14 +9,12 @@ export default function Header({ lang, onLangChange }: Props) {
   return (
     <header className="gh-header">
       <div className="gh-inner">
-        <a href="#" className="gh-logo" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+        <a href="#" className="gh-logo" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0 }); }}>
           AI EXPLORER
         </a>
         <nav className="gh-desktop-nav">
           <a href="#" className="gh-nav-link gh-nav-active">{lang === 'zh' ? '首页' : 'Home'}</a>
           <a href="#tools-section" className="gh-nav-link">{lang === 'zh' ? '工具' : 'Tools'}</a>
-          <span className="gh-nav-divider" />
-          <span className="gh-demo-badge">{lang === 'zh' ? 'Demo 演示' : 'Demo'}</span>
         </nav>
         <button
           type="button"

@@ -1,4 +1,4 @@
-/* AI Explorer Demo — visual style inspired by aiexplore.top */
+/* AI Explorer — visual style inspired by aiexplore.top */
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -80,7 +80,6 @@ a { color: inherit; }
   font-size: 13px;
   text-decoration: none;
   white-space: nowrap;
-  transition: all 0.15s;
   border: 1px solid transparent;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.55);
@@ -100,16 +99,6 @@ a { color: inherit; }
   height: 18px;
   background: rgba(255, 255, 255, 0.12);
   margin: 0 4px;
-}
-
-.gh-demo-badge {
-  font-size: 11px;
-  font-weight: 700;
-  color: #b44bff;
-  background: rgba(180, 75, 255, 0.12);
-  border: 1px solid rgba(180, 75, 255, 0.3);
-  border-radius: 6px;
-  padding: 3px 10px;
 }
 
 .gh-lang-btn {
@@ -207,7 +196,6 @@ a { color: inherit; }
   cursor: pointer;
   white-space: nowrap;
   flex-shrink: 0;
-  transition: all 0.15s;
   font-family: inherit;
 }
 
@@ -253,13 +241,10 @@ a { color: inherit; }
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   --accent: #00e5ff;
 }
 
 .tool-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 50px color-mix(in srgb, var(--accent) 13%, transparent);
   border-color: color-mix(in srgb, var(--accent) 31%, transparent);
   border-top-color: var(--accent);
 }
@@ -326,80 +311,6 @@ a { color: inherit; }
 
 .cat-header-line { flex: 1; height: 1px; }
 
-/* ── Solar system orb ── */
-.solar-orb {
-  position: relative;
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.solar-orb-glow {
-  position: absolute;
-  inset: 4px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(0, 229, 255, 0.15) 0%, transparent 70%);
-  animation: solar-glow-pulse 3s ease-in-out infinite;
-}
-
-.solar-orb-sun {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #66eeff, #0088cc);
-  box-shadow: 0 0 6px rgba(0, 229, 255, 0.4);
-  z-index: 2;
-}
-
-.solar-orb-orbit {
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  animation: solar-orbit-spin linear infinite;
-}
-
-.solar-orb-orbit--1 { width: 22px; height: 22px; animation-duration: 3.2s; }
-.solar-orb-orbit--2 { width: 30px; height: 30px; animation-duration: 5.5s; animation-direction: reverse; }
-.solar-orb-orbit--3 { width: 38px; height: 38px; animation-duration: 8s; }
-
-.solar-orb-planet {
-  position: absolute;
-  top: 50%; left: 0;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.solar-orb-planet--cyan { width: 4px; height: 4px; background: #00e5ff; }
-.solar-orb-planet--purple { width: 3px; height: 3px; background: #b44bff; }
-.solar-orb-planet--gold { width: 2.5px; height: 2.5px; background: #ffd700; }
-
-.solar-orb-ring {
-  position: absolute;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 229, 255, 0.1);
-  animation: solar-ring-spin-a 6s linear infinite;
-}
-
-.solar-orb-ring--a { width: 34px; height: 12px; }
-.solar-orb-ring--b { width: 34px; height: 12px; animation: solar-ring-spin-b 7.5s linear infinite reverse; opacity: 0.6; }
-
-.solar-orb--typing .solar-orb-orbit--1 { animation-duration: 1.8s; }
-.solar-orb--typing .solar-orb-orbit--2 { animation-duration: 2.8s; }
-.solar-orb--typing .solar-orb-orbit--3 { animation-duration: 4s; }
-.solar-orb--searching .solar-orb-orbit--1 { animation-duration: 0.9s; }
-.solar-orb--searching .solar-orb-orbit--2 { animation-duration: 1.4s; }
-.solar-orb--searching .solar-orb-orbit--3 { animation-duration: 2s; }
-.solar-orb--searching .solar-orb-sun { box-shadow: 0 0 8px rgba(0, 229, 255, 0.45), 0 0 16px rgba(180, 75, 255, 0.25); }
-
-@keyframes solar-orbit-spin { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
-@keyframes solar-ring-spin-a { from { transform: rotate(-28deg); } to { transform: rotate(332deg); } }
-@keyframes solar-ring-spin-b { from { transform: rotate(28deg); } to { transform: rotate(388deg); } }
-@keyframes solar-glow-pulse { 0%, 100% { opacity: 0.45; transform: scale(1); } 50% { opacity: 0.7; transform: scale(1.04); } }
-
 /* ── Agent Search ── */
 .home-search-page {
   max-width: 900px;
@@ -447,17 +358,7 @@ a { color: inherit; }
 }
 
 .search-agent-bar.is-searching {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 0 12px rgba(180, 75, 255, 0.08);
-}
-
-.search-agent-wave {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.12;
-  background:
-    radial-gradient(ellipse 80% 60% at 20% 50%, rgba(180, 75, 255, 0.15), transparent 60%),
-    radial-gradient(ellipse 60% 80% at 80% 50%, rgba(0, 229, 255, 0.08), transparent 55%);
+  border-color: rgba(180, 75, 255, 0.2);
 }
 
 .search-agent-field {
@@ -557,41 +458,7 @@ a { color: inherit; }
 
 .search-agent-submit--circle:hover {
   border-color: rgba(180, 75, 255, 0.45);
-  box-shadow: 0 0 8px rgba(180, 75, 255, 0.12);
   color: #d4b8ff;
-}
-
-.search-agent-chips {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.search-agent-chips-label {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
-  margin-right: 4px;
-}
-
-.search-agent-chip {
-  padding: 5px 14px;
-  border-radius: 999px;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.45);
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 0.15s;
-}
-
-.search-agent-chip:hover {
-  color: rgba(255, 255, 255, 0.7);
-  border-color: rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.04);
 }
 
 .search-agent-modes {
@@ -614,7 +481,6 @@ a { color: inherit; }
   border: 1px solid rgba(255, 255, 255, 0.08);
   cursor: pointer;
   font-family: inherit;
-  transition: all 0.15s;
 }
 
 .search-agent-mode.is-active {
@@ -627,31 +493,16 @@ a { color: inherit; }
 .search-agent-results { margin-top: 12px; }
 
 .search-agent-status {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.55);
   margin-bottom: 16px;
 }
-
-.search-agent-status-pulse {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #00e5ff;
-  animation: agent-dot-blink 1.5s ease-in-out infinite;
-}
-
-@keyframes agent-dot-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 
 .search-agent-count {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.55);
   margin: 0 0 20px;
 }
-
-.search-agent-demo-tag { color: rgba(180, 75, 255, 0.7); }
 
 .search-agent-empty {
   text-align: center;
@@ -670,7 +521,6 @@ a { color: inherit; }
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(13, 18, 32, 0.75);
   text-decoration: none;
-  transition: all 0.15s;
 }
 
 .search-result-link:hover {
@@ -710,23 +560,32 @@ a { color: inherit; }
 }
 
 /* ── Footer ── */
-.demo-footer {
+.site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.07);
   background: rgba(10, 14, 26, 0.98);
   margin-top: auto;
 }
 
-.demo-footer-inner {
+.site-footer-inner {
   max-width: 1280px;
   margin: 0 auto;
   padding: 32px 24px;
   text-align: center;
 }
 
-.demo-footer-inner p {
+.site-footer-inner p {
   margin: 12px 0 0;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.38);
+}
+
+.site-footer-inner a {
+  color: #00e5ff;
+  text-decoration: none;
+}
+
+.site-footer-inner a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 720px) {

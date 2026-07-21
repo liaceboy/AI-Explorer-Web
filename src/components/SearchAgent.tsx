@@ -1,8 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Lang } from '../hooks/useLang';
-import { HERO_SUGGESTIONS, mockSearch } from '../data/search-mock';
+import { mockSearch } from '../data/search-mock';
 import type { SearchMode, SearchResultItem } from '../types/search';
-import SolarSystemOrb from './SolarSystemOrb';
 
 const MODES: { id: SearchMode; icon: string; zh: string; en: string }[] = [
   { id: 'auto', icon: '✨', zh: '智能', en: 'Auto' },
@@ -70,7 +69,6 @@ export default function SearchAgent({
 
   const isHero = variant === 'hero';
   const hasSubmitted = submittedQuery.trim().length >= 2;
-  const orbState = loading ? 'searching' : draft ? 'typing' : 'idle';
   const t = (zh: string, en: string) => (lang === 'zh' ? zh : en);
 
   useEffect(() => {
@@ -108,8 +106,6 @@ export default function SearchAgent({
   const bar = (
     <div className={`search-agent-shell${isHero ? ' search-agent-shell--hero' : ' search-agent-shell--page'}`}>
       <div className={`search-agent-bar${isHero ? ' search-agent-bar--hero' : ''}${loading ? ' is-searching' : ''}`}>
-        {isHero && <div className="search-agent-wave" aria-hidden />}
-        <SolarSystemOrb state={orbState} />
         <div className={`search-agent-field${isHero ? ' search-agent-field--hero' : ''}`}>
           {isHero && !draft && (
             <span className="search-agent-fake-ph" aria-hidden>
@@ -164,34 +160,16 @@ export default function SearchAgent({
     </div>
   );
 
-  const suggestions = isHero && !hasSubmitted && (
-    <div className="search-agent-chips">
-      <span className="search-agent-chips-label">{t('推荐', 'Try')}</span>
-      {HERO_SUGGESTIONS.map(s => (
-        <button
-          key={s.q}
-          type="button"
-          className="search-agent-chip"
-          onClick={() => { setDraft(s.q); onSubmit(s.q); }}
-        >
-          {s.label}
-        </button>
-      ))}
-    </div>
-  );
-
   const resultsEl = hasSubmitted && (
     <div className="search-agent-results">
       {loading && (
         <div className="search-agent-status">
-          <span className="search-agent-status-pulse" />
-          {t('Agent 正在检索演示数据…', 'Agent searching demo data…')}
+          {t('正在检索…', 'Searching…')}
         </div>
       )}
       {!loading && (
         <p className="search-agent-count">
           {t(`找到 ${results.length} 条结果`, `${results.length} results`)}
-          <span className="search-agent-demo-tag"> · Mock</span>
         </p>
       )}
       {!loading && results.length === 0 && (
@@ -209,7 +187,6 @@ export default function SearchAgent({
     return (
       <div className="search-agent-hero">
         {bar}
-        {suggestions}
       </div>
     );
   }

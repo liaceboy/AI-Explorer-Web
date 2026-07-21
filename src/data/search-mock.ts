@@ -91,11 +91,3 @@ export async function mockSearch(query: string, mode: SearchMode): Promise<MockS
   }
   return merged;
 }
-
-export const HERO_SUGGESTIONS = [
-  { label: 'ChatGPT', q: 'ChatGPT' },
-  { label: 'Claude', q: 'Claude' },
-  { label: 'Gemini', q: 'Gemini' },
-  { label: '最佳 AI 视频生成器', q: 'AI video' },
-  { label: '最佳 AI 图像生成器', q: 'AI image' },
-];

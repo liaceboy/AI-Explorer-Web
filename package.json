@@ -2,7 +2,7 @@
   "name": "ai-explorer-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "UI showcase demo inspired by aiexplore.top — mock data only",
+  "description": "AI Explorer — curated AI tools navigation inspired by aiexplore.top",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -31,7 +31,7 @@ export default function App() {
   }, [category]);
 
   const scrollToTools = () => {
-    document.getElementById('tools-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById('tools-section')?.scrollIntoView({ block: 'start' });
   };
 
   return (
@@ -134,10 +134,14 @@ export default function App() {
           )}
         </main>
 
-        <footer className="demo-footer">
-          <div className="demo-footer-inner">
+        <footer className="site-footer">
+          <div className="site-footer-inner">
             <span className="gh-logo">AI EXPLORER</span>
-            <p>{t('开源 UI Demo · 仅 Mock 数据 · 非生产版本', 'Open-source UI Demo · Mock data only · Not production')}</p>
+            <p>
+              {t('精选 AI 工具导航与工作流指南', 'Curated AI tools & workflow guides')}
+              {' · '}
+              <a href="https://www.aiexplore.top/" target="_blank" rel="noopener noreferrer">aiexplore.top</a>
+            </p>
           </div>
         </footer>
       </div>
