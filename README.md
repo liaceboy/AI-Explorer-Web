@@ -4,24 +4,46 @@
 
 ### 精选 AI 工具，一站直达。
 
-**Your launchpad into the AI universe — curated tools, trusted rankings, and practical workflows.**
+**Publish Your AI Tool. Get Discovered.**
+
+*Your launchpad into the AI universe — curated AI Directory, trusted rankings, and a free channel to reach global AI users.*
 
 <br />
 
 [![Website](https://img.shields.io/badge/Website-aiexplore.top-00e5ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.aiexplore.top/)
+[![Submit Tool](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
 [![GitHub Stars](https://img.shields.io/github/stars/liaceboy/Ai-explorer-demo?style=for-the-badge&logo=github&label=Star)](https://github.com/liaceboy/Ai-explorer-demo)
-[![License](https://img.shields.io/badge/License-MIT-b44bff?style=for-the-badge)](#)
+[![License MIT](https://img.shields.io/badge/License-MIT-b44bff?style=for-the-badge)](#-license)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-aiexplore.top-111111?style=for-the-badge)](https://www.aiexplore.top/)
 
 <br />
 
-**[🌐 访问官网](https://www.aiexplore.top/)** &nbsp;·&nbsp; **[⭐ Star 本项目](https://github.com/liaceboy/Ai-explorer-demo)** &nbsp;·&nbsp; **[📮 提交工具](https://www.aiexplore.top/submit-tool)**
+**[🌐 Visit Website](https://www.aiexplore.top/)** &nbsp;·&nbsp;
+**[🚀 Submit AI Tool — Free](https://www.aiexplore.top/submit)** &nbsp;·&nbsp;
+**[⭐ Star on GitHub](https://github.com/liaceboy/Ai-explorer-demo)**
 
 <br />
 
-> 本仓库是 [AI Explorer](https://www.aiexplore.top/) 的 GitHub 推广页与 UI Showcase。  
-> **完整产品体验请访问官网** — 134+ 工具、排行榜、Prompt 库、资讯与教程均在线上提供。
+> **Launch Your AI Product for Free.**  
+> AI Explorer 不仅是 AI 工具导航站，更是帮助开发者、独立开发者、创业团队与 AI 产品**快速获得曝光**的平台 — **永久免费收录，人工审核，面向全球 AI 用户展示。**
 
 </div>
+
+<br />
+
+## 📑 Table of Contents
+
+- [Why AI Explorer](#-why-ai-explorer)
+- [Features](#-features)
+- [Submit Your AI Tool for Free](#-submit-your-ai-tool-for-free)
+- [Perfect For](#-perfect-for)
+- [Product Tour](#-product-tour)
+- [Live Demo](#-live-demo)
+- [Roadmap](#-roadmap)
+- [FAQ](#-faq)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Support](#-support)
 
 <br />
 
@@ -29,55 +51,75 @@
 
 ## ✦ Why AI Explorer
 
-AI 工具更新太快，信息太散。ChatGPT、Claude、Cursor、Midjourney、Flux、ComfyUI……  
-每天有新模型、新产品、新工作流，却很少有人帮你**筛掉噪音、留下真正好用的**。
+AI 工具更新太快，信息太散 — ChatGPT、Claude、Cursor、Midjourney、Flux、ComfyUI 每天涌现新产品。
 
-**AI Explorer** 是一个面向中文与全球用户的 **AI Directory** — 把工具导航、排行榜、分类指南、Prompt 资源与 AI News 聚合在同一站点，让你：
+**AI Explorer** 做两件事：
 
-- **少花时间找工具**，多花时间用工具
-- **按场景选型**，而不是按 hype 跟风
-- **从目录到教程**，形成可复用的 AI 工作流
+| 面向用户 | 面向产品方 |
+|:---|:---|
+| 🧭 **发现** — 在 134+ 精选 AI Tools 中快速选型 | 🚀 **曝光** — 免费提交工具，触达开发者与 AI 爱好者 |
+| 📊 **对比** — 排行榜、分类指南、详情评测 | 🌍 **推广** — 无需付费，面向全球 AI 用户展示 |
+| 📚 **学习** — Prompt、教程、AI News 与工作流 | ✅ **信任** — 人工审核，优质工具优先推荐 |
+
+> 我们不只帮你**找工具**，也帮你**被找到**。
 
 <br />
 
 ---
 
-## ✦ Highlights
+## ✦ Features
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🧭 134+ 精选 AI Tools
+### 🚀 Free AI Tool Submission
 
-人工筛选 + 分类整理，覆盖对话、编程、设计、视频、效率与云服务。  
-不是无限堆砌链接，而是**可对比、可跳转、可收藏**的 AI Resources。
+**Submit your AI tool for free** and reach more developers, creators, and AI enthusiasts through AI Explorer.
+
+永久免费 · 人工审核 · 全球曝光
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 📊 稳定可预期的排行榜
+### 🧭 AI Directory
 
-本周 / 本月热门、编辑推荐、最新收录 —  
-基于行业热度与编辑维护，**每周独立更新**，帮你快速锁定 ChatGPT、Claude、Cursor 等主流选择。
+134+ 精选 AI Tools，7 大分类。  
+覆盖对话、编程、设计、视频、效率与云服务。
+
+</td>
+<td width="33%" valign="top">
+
+### 📊 Rankings
+
+本周 / 本月热门、编辑推荐。  
+稳定可预期，快速锁定主流选择。
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### ✍️ AI Prompt 与绘画 Prompt
+### ✍️ AI Prompt
 
-ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结构化生成器，  
-**一键复制**，降低 Prompt 工程门槛。
+多平台 Prompt 库 + 绘画 Prompt 生成器。  
+ChatGPT · Claude · Midjourney · Flux 一键复制。
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 📰 AI News & 学习中心
+### 📰 AI News
 
-46 篇原创内容：资讯、教程、应用案例与 AI 学习路径。  
-从 ComfyUI、RAG 到 Cursor Agent，**持续更新**。
+46 篇原创内容：资讯、教程、应用案例。  
+ComfyUI · Cursor · RAG · Agent 持续更新。
+
+</td>
+<td width="33%" valign="top">
+
+### 🔍 Site Search
+
+分类 Tab + 工具目录搜索。  
+少花时间浏览，多花时间使用。
 
 </td>
 </tr>
@@ -87,15 +129,80 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 ---
 
+## 🚀 Submit Your AI Tool for Free
+
+<div align="center">
+
+### **Launch Your AI Product for Free.**
+
+*Built for indie hackers, dev teams, and AI startups who want visibility — not ad spend.*
+
+<br />
+
+</div>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 为什么提交到 AI Explorer？
+
+AI Explorer 是一个 growing **AI Directory**，连接**优质 AI 产品**与**全球 AI 用户**。
+
+无论你是独立开发者、创业团队，还是刚上线的 AI SaaS — 都可以通过 **Free AI Tool Submission** 获得：
+
+| | |
+|:---|:---|
+| ✅ | **永久免费收录** — 无需付费即可推广你的 AI 产品 |
+| ✅ | **人工审核** — 编辑筛选，保证目录质量与可信度 |
+| ✅ | **优质推荐** — 入选后可进入分类页、排行榜与详情展示 |
+| ✅ | **全球曝光** — 面向开发者、创作者与 AI 爱好者展示 |
+| ✅ | **更多流量** — 帮助产品被 ChatGPT / Claude / Cursor 用户发现 |
+
+</td>
+<td width="45%" valign="top">
+
+### 适合谁提交？
+
+- 🧑‍💻 **独立开发者** — 刚发布的 AI 工具 / API / 插件
+- 🚀 **创业团队** — 需要早期曝光与种子用户
+- 🏢 **AI 产品团队** — 希望进入 AI Tools 导航与对比场景
+- 🎨 **创作者工具** — Midjourney、Flux、ComfyUI 生态产品
+
+<br />
+
+> 填写工具名称、链接与简介，审核通过后即可上线展示。
+
+</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+
+[![Submit Your AI Tool — Free](https://img.shields.io/badge/🚀_Submit_Your_AI_Tool-永久免费收录-39ff14?style=for-the-badge&logo=rocket&logoColor=white)](https://www.aiexplore.top/submit)
+
+<br />
+
+**[→ Submit at aiexplore.top/submit](https://www.aiexplore.top/submit)**
+
+</div>
+
+<br />
+
+---
+
 ## ✦ Perfect For
 
-| 你是谁 | 你能获得什么 |
+| 角色 | 价值 |
 |:---|:---|
-| 🧑‍💻 **开发者** | 快速发现 Cursor、GitHub Copilot、Supabase 等 Dev & Tech 工具，阅读 MCP、RAG、Agent 实战教程 |
-| 🎨 **设计师 / 创作者** | 对比 Midjourney、Flux、Canva AI，使用绘画 Prompt 生成器与 ComfyUI 工作流指南 |
-| 📈 **产品 / 运营** | 按场景浏览 AI 应用案例，复制 Prompt 模板，跟踪 AI 行业动态 |
-| 🎓 **学生 / 自学者** | 通过分类指南与学习中心，系统了解 ChatGPT、Claude 等工具的最佳实践 |
-| 🔍 **AI 工具收集者** | 像 [carrot](https://github.com/xx025/carrot) 一样，在一个页面完成发现、对比与跳转 |
+| 🧑‍💻 **开发者** | 发现 Cursor、Copilot 等 Dev Tools；阅读 MCP、RAG 教程 |
+| 🎨 **设计师 / 创作者** | 对比 Midjourney、Flux；使用 Prompt 生成器 |
+| 🚀 **AI 产品方** | **免费提交工具**，获取曝光与用户反馈 |
+| 📈 **产品 / 运营** | 跟踪 AI News，复制 Prompt，研究应用案例 |
+| 🎓 **学习者** | 分类指南 + 学习中心，系统掌握 AI 工作流 |
+| 🔍 **工具收集者** | 像 [carrot](https://github.com/xx025/carrot) 一样，一站发现与跳转 |
 
 <br />
 
@@ -103,7 +210,7 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 ## ✦ Product Tour
 
-以下截图均来自 **[aiexplore.top](https://www.aiexplore.top/)** 线上产品。
+> 以下截图来自 **[aiexplore.top](https://www.aiexplore.top/)** 线上产品。点击可跳转对应页面。
 
 <br />
 
@@ -111,28 +218,17 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 **在 7 大分类里，30 秒找到你要的工具。**
 
-首页聚合 AI 工具、开发技术、设计创意、媒体社交、学习知识、效率办公与云服务。  
-支持分类 Tab 筛选与热点动态，是日常探索 AI Directory 的入口。
+<br />
+
+<a href="https://www.aiexplore.top/tools">
+  <img src="docs/screenshots/module-1-tools.png" alt="AI 工具导航" width="920" />
+</a>
+
+*分类 Tab · 精选推荐 · 热点动态 — AI Directory 的核心入口*
 
 <br />
 
-[![AI 工具导航](docs/screenshots/module-1-tools.png)](https://www.aiexplore.top/tools)
-
-<br />
-
-👉 **[进入 AI 工具导航 →](https://www.aiexplore.top/tools)**
-
-<br />
-
-| 分类 | 规模 | 代表工具 |
-|:---|:---:|:---|
-| AI 工具 | 46 | ChatGPT · Claude · Gemini · DeepSeek · Perplexity |
-| 开发 & 技术 | 27 | Cursor · GitHub · Vercel · Supabase |
-| 设计 & 创意 | 16 | Midjourney · Flux · Figma · Canva |
-| 媒体 & 社交 | 8 | Suno · ElevenLabs · YouTube |
-| 学习 & 知识 | 10 | Hugging Face · Coursera · 知乎 |
-| 效率 & 工具 | 17 | Notion · Gamma · Obsidian · Zapier |
-| 云服务 | 10 | AWS · Firebase · MongoDB Atlas |
+👉 **[Explore AI Tools →](https://www.aiexplore.top/tools)**
 
 <br />
 
@@ -142,16 +238,17 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 **不用猜「现在什么最火」— 看榜单就行。**
 
-本周热门、本月热门、编辑推荐与最新收录独立维护。  
-适合快速了解 ChatGPT、DeepSeek、Cursor、Midjourney 等当前主流 AI Tools。
+<br />
+
+<a href="https://www.aiexplore.top/rankings">
+  <img src="docs/screenshots/module-2-rankings.png" alt="AI 工具排行榜" width="920" />
+</a>
+
+*本周 / 本月热门 · ChatGPT · DeepSeek · Cursor · Midjourney*
 
 <br />
 
-[![AI 工具排行榜](docs/screenshots/module-2-rankings.png)](https://www.aiexplore.top/rankings)
-
-<br />
-
-👉 **[查看完整排行榜 →](https://www.aiexplore.top/rankings)**
+👉 **[View Rankings →](https://www.aiexplore.top/rankings)**
 
 <br />
 
@@ -161,16 +258,17 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 **高质量 Prompt，复制即用。**
 
-按 ChatGPT、Claude、DeepSeek、Kimi、豆包、Midjourney 等平台分类，  
-覆盖写作、翻译、代码 Review、竞品分析、学习讲解与营销文案等场景。
+<br />
+
+<a href="https://www.aiexplore.top/prompt-generator?mode=chat">
+  <img src="docs/screenshots/module-3-prompt-library.png" alt="AI Prompt 库" width="920" />
+</a>
+
+*ChatGPT · Claude · DeepSeek · 写作 / 代码 / 营销场景模板*
 
 <br />
 
-[![AI Prompt 库](docs/screenshots/module-3-prompt-library.png)](https://www.aiexplore.top/prompt-generator?mode=chat)
-
-<br />
-
-👉 **[打开 AI Prompt 库 →](https://www.aiexplore.top/prompt-generator?mode=chat)**
+👉 **[Browse Prompt Library →](https://www.aiexplore.top/prompt-generator?mode=chat)**
 
 <br />
 
@@ -178,18 +276,19 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 ### 04 · AI 绘画提示词生成器
 
-**为 Midjourney / Flux 结构化生成 Prompt，告别拼词烦恼。**
-
-点选画面主体、艺术风格、光影与镜头视角，实时生成带参数的绘画 Prompt，  
-支持 Midjourney、Flux、GPT-Image-2 等模型工作流。
+**Midjourney / Flux 结构化 Prompt，点选即生成。**
 
 <br />
 
-[![AI 绘画提示词生成器](docs/screenshots/module-4-drawing-prompt.png)](https://www.aiexplore.top/prompt-generator)
+<a href="https://www.aiexplore.top/prompt-generator">
+  <img src="docs/screenshots/module-4-drawing-prompt.png" alt="AI 绘画提示词生成器" width="920" />
+</a>
+
+*画面主体 · 艺术风格 · 光影 · 镜头 — 一键复制 Prompt*
 
 <br />
 
-👉 **[使用绘画 Prompt 生成器 →](https://www.aiexplore.top/prompt-generator)**
+👉 **[Open Prompt Generator →](https://www.aiexplore.top/prompt-generator)**
 
 <br />
 
@@ -199,22 +298,17 @@ ChatGPT、Claude、DeepSeek、Midjourney、Flux 等平台的 Prompt 模板与结
 
 **不只找工具 — 还要会用工具。**
 
-资讯中心与学习路径覆盖 AI News、教程、应用案例与 Prompt 技巧。  
-ComfyUI、Cursor、FLUX、RAG、AutoGen 等主题均有深度内容。
+<br />
+
+<a href="https://www.aiexplore.top/articles">
+  <img src="docs/screenshots/module-5-articles.png" alt="AI 资讯中心" width="920" />
+</a>
+
+*AI News · 教程 · 应用案例 · 46 篇原创内容*
 
 <br />
 
-[![AI 资讯中心](docs/screenshots/module-5-articles.png)](https://www.aiexplore.top/articles)
-
-<br />
-
-👉 **[浏览 AI 资讯 →](https://www.aiexplore.top/articles)** &nbsp;·&nbsp; **[进入学习中心 →](https://www.aiexplore.top/learning)**
-
-<br />
-
-| AI 资讯 | AI 教程 | AI 应用 | AI 提示词 | AI 学习 | 合计 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 9 | 6 | 6 | 5 | 20 | **46** |
+👉 **[AI News →](https://www.aiexplore.top/articles)** · **[Learning Hub →](https://www.aiexplore.top/learning)**
 
 <br />
 
@@ -226,28 +320,25 @@ ComfyUI、Cursor、FLUX、RAG、AutoGen 等主题均有深度内容。
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 线上完整版（推荐）
+### 🌐 Production（推荐）
 
-所有功能、数据与内容均在官网运行：
+完整产品，含全部工具、内容与 **Free Submission**：
 
 **[https://www.aiexplore.top/](https://www.aiexplore.top/)**
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 本仓库 UI Showcase
+### 💻 UI Showcase（本仓库）
 
-开源前端 Demo，视觉风格参考官网。  
-**仅含本站工具搜索与 Mock 数据**，不含后端与生产逻辑。
+开源前端 Demo，视觉参考官网。Mock 数据，搜索仅限本地工具目录。
 
 ```bash
 git clone https://github.com/liaceboy/Ai-explorer-demo.git
-cd Ai-explorer-demo
-npm install
-npm run dev
+cd Ai-explorer-demo && npm install && npm run dev
 ```
 
-本地访问 http://localhost:5173
+→ http://localhost:5173
 
 </td>
 </tr>
@@ -259,17 +350,16 @@ npm run dev
 
 ## ✦ Roadmap
 
-| 状态 | 方向 |
+| 状态 | 里程碑 |
 |:---:|:---|
-| ✅ | 134+ AI 工具目录与 7 大分类指南 |
-| ✅ | 工具排行榜（本周 / 本月 / 编辑推荐） |
-| ✅ | AI Prompt 库 & 绘画 Prompt 生成器 |
-| ✅ | AI 资讯中心 & 学习中心（46 篇内容） |
-| ✅ | 免费提交工具入口 |
-| 🚧 | GitHub UI Showcase 持续对齐官网视觉 |
-| 📋 | 社区共建：更多工具评测与用户投稿 |
+| ✅ | 134+ AI Tools · 7 大分类 · 详情页 |
+| ✅ | Rankings · Categories · Prompt Tools |
+| ✅ | AI News & Learning Hub（46 篇） |
+| ✅ | **Free AI Tool Submission** — [submit](https://www.aiexplore.top/submit) |
+| 🚧 | GitHub UI Showcase 持续对齐官网 |
+| 📋 | 更多社区投稿与工具评测 |
 
-> Roadmap 以 [aiexplore.top](https://www.aiexplore.top/changelog) 实际更新为准。
+> 以 [Changelog](https://www.aiexplore.top/changelog) 为准。
 
 <br />
 
@@ -278,43 +368,28 @@ npm run dev
 ## ✦ FAQ
 
 <details>
+<summary><strong>提交 AI 工具真的免费吗？</strong></summary>
+<br />
+是的。<strong>永久免费收录</strong>，无需付费推广。编辑人工审核后上线，优质工具可进入推荐与排行榜展示。
+</details>
+
+<details>
+<summary><strong>谁适合提交工具？</strong></summary>
+<br />
+独立开发者、创业团队、AI SaaS 产品、开源项目、插件与 API 服务 — 只要面向 AI 用户，均欢迎提交。
+</details>
+
+<details>
 <summary><strong>这个 GitHub 仓库和官网有什么区别？</strong></summary>
-
 <br />
-
-- **官网 [aiexplore.top](https://www.aiexplore.top/)**：完整 AI Directory 产品，含全部工具、内容、Prompt 与搜索能力。  
-- **本仓库**：GitHub 推广页 + 开源 UI Showcase，用于展示界面风格，数据为 Mock，搜索仅限本地工具目录。
-
+<strong>官网</strong>：完整 AI Directory 产品 + 免费提交入口。<br />
+<strong>本仓库</strong>：GitHub 推广页 + UI Showcase（Mock 数据）。
 </details>
 
 <details>
-<summary><strong>AI Explorer 是免费的吗？</strong></summary>
-
+<summary><strong>和 carrot 等 README 导航有何不同？</strong></summary>
 <br />
-
-网站浏览、工具导航、排行榜、Prompt 模板与大部分资讯内容均可免费访问。  
-各 AI 工具本身可能有各自的免费版或订阅策略，请以工具官网为准。
-
-</details>
-
-<details>
-<summary><strong>如何提交我的 AI 工具？</strong></summary>
-
-<br />
-
-访问 **[提交工具页面](https://www.aiexplore.top/submit-tool)**，填写工具信息即可免费发布到 AI Explorer 目录。
-
-</details>
-
-<details>
-<summary><strong>和 carrot 等导航仓库有什么不同？</strong></summary>
-
-<br />
-
-[carrot](https://github.com/xx025/carrot) 等仓库以 **GitHub README 列表** 为核心载体；  
-**AI Explorer** 是独立的 **Web 产品**，提供分类指南、详情页、排行榜、Prompt 工具与教程等更深度的 AI Search 与 AI Resources 体验。  
-本仓库负责为官网引流，并开源 UI Demo 供参考。
-
+[carrot](https://github.com/xx025/carrot) 以 GitHub 列表为载体；AI Explorer 是独立 Web 产品，提供详情页、排行榜、Prompt 工具、教程与<strong>免费工具发布</strong>能力。
 </details>
 
 <br />
@@ -323,22 +398,32 @@ npm run dev
 
 ## ✦ Contributing
 
-欢迎通过以下方式为 AI Explorer 生态做贡献：
-
-| 方式 | 链接 |
+| 行动 | 链接 |
 |:---|:---|
-| 📮 提交 AI 工具 | [aiexplore.top/submit-tool](https://www.aiexplore.top/submit-tool) |
+| 🚀 **Submit AI Tool (Free)** | [aiexplore.top/submit](https://www.aiexplore.top/submit) |
 | ⭐ Star 本仓库 | [github.com/liaceboy/Ai-explorer-demo](https://github.com/liaceboy/Ai-explorer-demo) |
 | 🔗 分享官网 | [aiexplore.top](https://www.aiexplore.top/) |
-| 📬 联系我们 | [aiexplore.top/contact](https://www.aiexplore.top/contact) |
+| 📬 Contact | [aiexplore.top/contact](https://www.aiexplore.top/contact) |
 
 <br />
 
 ---
 
-## ✦ Tech Stack（UI Showcase）
+## ✦ License
 
-Vite · React 19 · TypeScript · 纯 CSS · 客户端 Mock 数据
+MIT — UI Showcase 源码可自由参考与 Fork。  
+网站内容与工具目录版权归 [AI Explorer](https://www.aiexplore.top/) 所有。
+
+<br />
+
+---
+
+## ✦ Support
+
+- 🌐 Website: [aiexplore.top](https://www.aiexplore.top/)
+- 🚀 Submit: [aiexplore.top/submit](https://www.aiexplore.top/submit)
+- 📧 Contact: [aiexplore.top/contact](https://www.aiexplore.top/contact)
+- 𝕏 Follow: [@AceboyLi](https://x.com/AceboyLi)
 
 <br />
 
@@ -346,13 +431,13 @@ Vite · React 19 · TypeScript · 纯 CSS · 客户端 Mock 数据
 
 <div align="center">
 
-### 如果 AI Explorer 帮你节省了找工具的时间，欢迎支持我们 👇
+### Found the right AI tool — or built one worth sharing?
 
 <br />
 
 [![Star on GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-000000?style=for-the-badge&logo=github)](https://github.com/liaceboy/Ai-explorer-demo)
 [![Visit Website](https://img.shields.io/badge/🌐_Visit_Website-aiexplore.top-00e5ff?style=for-the-badge)](https://www.aiexplore.top/)
-[![Share](https://img.shields.io/badge/🔗_Share_with_friends-b44bff?style=for-the-badge)](https://www.aiexplore.top/)
+[![Submit AI Tool Free](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
 
 <br />
 
@@ -362,10 +447,10 @@ ChatGPT · Claude · Cursor · ComfyUI · Flux · Midjourney · DeepSeek · Perp
 
 <br />
 
-© 2026 [AI Explorer](https://www.aiexplore.top/) · [隐私政策](https://www.aiexplore.top/privacy-policy) · [服务条款](https://www.aiexplore.top/terms-of-service) · [联系我们](https://www.aiexplore.top/contact)
+© 2026 [AI Explorer](https://www.aiexplore.top/) · [Privacy](https://www.aiexplore.top/privacy-policy) · [Terms](https://www.aiexplore.top/terms-of-service)
 
 <br />
 
-*Less browsing. More building.*
+*Less browsing. More building. **Launch for free.***
 
 </div>
