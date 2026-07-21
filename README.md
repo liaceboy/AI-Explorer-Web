@@ -12,7 +12,7 @@
 
 [![Website](https://img.shields.io/badge/Website-aiexplore.top-00e5ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.aiexplore.top/)
 [![Submit Tool](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
-[![GitHub Stars](https://img.shields.io/github/stars/liaceboy/Ai-explorer-demo?style=for-the-badge&logo=github&label=Star)](https://github.com/liaceboy/Ai-explorer-demo)
+[![GitHub Stars](https://img.shields.io/github/stars/liaceboy/AI-Explorer-Web?style=for-the-badge&logo=github&label=Star)](https://github.com/liaceboy/AI-Explorer-Web)
 [![License MIT](https://img.shields.io/badge/License-MIT-b44bff?style=for-the-badge)](#-license)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-aiexplore.top-111111?style=for-the-badge)](https://www.aiexplore.top/)
 
@@ -20,7 +20,7 @@
 
 **[🌐 Visit Website](https://www.aiexplore.top/)** &nbsp;·&nbsp;
 **[🚀 Submit AI Tool — Free](https://www.aiexplore.top/submit)** &nbsp;·&nbsp;
-**[⭐ Star on GitHub](https://github.com/liaceboy/Ai-explorer-demo)**
+**[⭐ Star on GitHub](https://github.com/liaceboy/AI-Explorer-Web)**
 
 <br />
 
@@ -374,8 +374,8 @@ AI Explorer 是一个 growing **AI Directory**，连接优质 AI 产品与全球
 本仓库开源 Demo · Mock 数据 · 本站工具搜索
 
 ```bash
-git clone https://github.com/liaceboy/Ai-explorer-demo.git
-cd Ai-explorer-demo && npm i && npm run dev
+git clone https://github.com/liaceboy/AI-Explorer-Web.git
+cd AI-Explorer-Web && npm i && npm run dev
 ```
 
 → http://localhost:5173
@@ -449,7 +449,7 @@ cd Ai-explorer-demo && npm i && npm run dev
 | 行动 | 链接 |
 |:---|:---|
 | 🚀 **Submit AI Tool (Free)** | [aiexplore.top/submit](https://www.aiexplore.top/submit) |
-| ⭐ Star 本仓库 | [github.com/liaceboy/Ai-explorer-demo](https://github.com/liaceboy/Ai-explorer-demo) |
+| ⭐ Star 本仓库 | [github.com/liaceboy/AI-Explorer-Web](https://github.com/liaceboy/AI-Explorer-Web) |
 | 🔗 分享官网 | [aiexplore.top](https://www.aiexplore.top/) |
 | 📬 Contact | [aiexplore.top/contact](https://www.aiexplore.top/contact) |
 
@@ -485,7 +485,7 @@ MIT — UI Showcase 源码可自由参考与 Fork。
 
 <br />
 
-[![Star on GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-000000?style=for-the-badge&logo=github)](https://github.com/liaceboy/Ai-explorer-demo)
+[![Star on GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-000000?style=for-the-badge&logo=github)](https://github.com/liaceboy/AI-Explorer-Web)
 [![Visit Website](https://img.shields.io/badge/🌐_Visit_Website-aiexplore.top-00e5ff?style=for-the-badge)](https://www.aiexplore.top/)
 [![Submit AI Tool Free](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
 
