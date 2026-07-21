@@ -1,57 +1,30 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Lang } from '../hooks/useLang';
-import { mockSearch } from '../data/search-mock';
-import type { SearchMode, SearchResultItem } from '../types/search';
-
-const MODES: { id: SearchMode; icon: string; zh: string; en: string }[] = [
-  { id: 'auto', icon: '✨', zh: '智能', en: 'Auto' },
-  { id: 'site', icon: '🔍', zh: '本站', en: 'Site' },
-  { id: 'news', icon: '📰', zh: 'AI 新闻', en: 'AI News' },
-  { id: 'github', icon: '💻', zh: 'GitHub', en: 'GitHub' },
-  { id: 'product', icon: '🚀', zh: '产品', en: 'Products' },
-  { id: 'web', icon: '🌐', zh: '全网', en: 'Web' },
-];
-
-const TYPE_LABEL: Record<string, { zh: string; en: string }> = {
-  tool: { zh: '工具', en: 'Tool' },
-  news: { zh: '新闻', en: 'News' },
-  repo: { zh: '仓库', en: 'Repo' },
-  product: { zh: '产品', en: 'Product' },
-  web: { zh: '网页', en: 'Web' },
-};
+import { searchSiteTools } from '../data/search-mock';
+import type { SearchResultItem } from '../types/search';
 
 interface Props {
   variant?: 'hero' | 'page';
   lang: Lang;
   submittedQuery: string;
   onSubmit: (q: string) => void;
-  defaultMode?: SearchMode;
 }
 
 function ResultCard({ item, lang }: { item: SearchResultItem; lang: Lang }) {
-  const label = TYPE_LABEL[item.type]?.[lang === 'zh' ? 'zh' : 'en'] ?? item.type;
-  const external = item.url.startsWith('http');
+  const label = lang === 'zh' ? '工具' : 'Tool';
 
-  const body = (
-    <div className="search-result-card">
-      <div className="search-result-meta">
-        <span className="search-result-type">{label}</span>
-        {item.source && <span className="search-result-source">{item.source}</span>}
-        {item.stars != null && <span className="search-result-source">⭐ {item.stars.toLocaleString()}</span>}
+  return (
+    <a href={item.url} target="_blank" rel="noopener noreferrer" className="search-result-link">
+      <div className="search-result-card">
+        <div className="search-result-meta">
+          <span className="search-result-type">{label}</span>
+          {item.source && <span className="search-result-source">{item.source}</span>}
+        </div>
+        <div className="search-result-title">{item.title}</div>
+        {item.snippet && <div className="search-result-snippet">{item.snippet}</div>}
       </div>
-      <div className="search-result-title">{item.title}</div>
-      {item.snippet && <div className="search-result-snippet">{item.snippet}</div>}
-    </div>
+    </a>
   );
-
-  if (external) {
-    return (
-      <a href={item.url} target="_blank" rel="noopener noreferrer" className="search-result-link">
-        {body}
-      </a>
-    );
-  }
-  return <div className="search-result-link search-result-link--static">{body}</div>;
 }
 
 export default function SearchAgent({
@@ -59,9 +32,7 @@ export default function SearchAgent({
   lang,
   submittedQuery,
   onSubmit,
-  defaultMode = 'auto',
 }: Props) {
-  const [mode, setMode] = useState<SearchMode>(defaultMode);
   const [draft, setDraft] = useState('');
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<SearchResultItem[]>([]);
@@ -82,14 +53,14 @@ export default function SearchAgent({
     }
     let cancelled = false;
     setLoading(true);
-    mockSearch(submittedQuery, mode).then(hits => {
+    searchSiteTools(submittedQuery).then(hits => {
       if (!cancelled) {
         setResults(hits);
         setLoading(false);
       }
     });
     return () => { cancelled = true; };
-  }, [submittedQuery, mode, hasSubmitted]);
+  }, [submittedQuery, hasSubmitted]);
 
   const runSearch = useCallback(() => {
     const q = draft.trim();
@@ -109,21 +80,17 @@ export default function SearchAgent({
         <div className={`search-agent-field${isHero ? ' search-agent-field--hero' : ''}`}>
           {isHero && !draft && (
             <span className="search-agent-fake-ph" aria-hidden>
-              {lang === 'zh' ? (
-                <>告诉 <span className="search-agent-fake-ph-ai">AI</span>，你想找什么工具、资源或解决方案…</>
-              ) : (
-                <>Tell <span className="search-agent-fake-ph-ai">AI</span> what tools, resources, or solutions you need…</>
-              )}
+              {t('搜索 AI 工具、分类或关键词…', 'Search AI tools, categories, or keywords…')}
             </span>
           )}
           <input
             ref={inputRef}
-            type="text"
+            type="search"
             className="search-agent-input"
             value={draft}
             onChange={e => setDraft(e.target.value)}
             onKeyDown={e => { if (e.key === 'Enter') runSearch(); }}
-            aria-label={t('搜索', 'Search')}
+            aria-label={t('搜索本站工具', 'Search site tools')}
           />
         </div>
         {draft && (
@@ -144,36 +111,20 @@ export default function SearchAgent({
     </div>
   );
 
-  const modeTabs = hasSubmitted && (
-    <div className="search-agent-modes">
-      {MODES.map(m => (
-        <button
-          key={m.id}
-          type="button"
-          className={`search-agent-mode${mode === m.id ? ' is-active' : ''}`}
-          onClick={() => setMode(m.id)}
-        >
-          <span>{m.icon}</span>
-          {lang === 'zh' ? m.zh : m.en}
-        </button>
-      ))}
-    </div>
-  );
-
   const resultsEl = hasSubmitted && (
     <div className="search-agent-results">
       {loading && (
         <div className="search-agent-status">
-          {t('正在检索…', 'Searching…')}
+          {t('正在搜索本站工具…', 'Searching site tools…')}
         </div>
       )}
       {!loading && (
         <p className="search-agent-count">
-          {t(`找到 ${results.length} 条结果`, `${results.length} results`)}
+          {t(`找到 ${results.length} 个工具`, `${results.length} tools found`)}
         </p>
       )}
       {!loading && results.length === 0 && (
-        <p className="search-agent-empty">{t('未找到相关结果', 'No results found')}</p>
+        <p className="search-agent-empty">{t('未找到相关工具', 'No matching tools')}</p>
       )}
       <div className="search-agent-grid">
         {!loading && results.map(item => (
@@ -184,20 +135,13 @@ export default function SearchAgent({
   );
 
   if (isHero) {
-    return (
-      <div className="search-agent-hero">
-        {bar}
-      </div>
-    );
+    return <div className="search-agent-hero">{bar}</div>;
   }
 
   return (
     <div className="search-agent-page">
       {bar}
-      {modeTabs}
       {resultsEl}
     </div>
   );
 }
-
-export type { SearchMode };
