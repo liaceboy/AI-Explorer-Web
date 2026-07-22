@@ -2,7 +2,7 @@
   "name": "ai-explorer-web",
   "version": "1.0.0",
   "private": true,
-  "description": "AI Explorer — curated AI tools navigation inspired by aiexplore.top",
+  "description": "AI Explorer web UI showcase — React + Vite demo for aiexplore.top",
   "type": "module",
   "scripts": {
     "dev": "vite",
