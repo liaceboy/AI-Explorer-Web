@@ -8,14 +8,14 @@
 
 <br />
 
-[![Website](https://img.shields.io/badge/Website-aiexplore.top-00e5ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.aiexplore.top/)
-[![Submit Tool](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
+[![Website](https://img.shields.io/badge/Website-aiexplorebox.com-00e5ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.aiexplorebox.com/)
+[![Submit Tool](https://img.shields.io/badge/🚀_Submit_AI_Tool-Free-39ff14?style=for-the-badge)](https://www.aiexplorebox.com/submit)
 [![GitHub Stars](https://img.shields.io/github/stars/liaceboy/AI-Explorer-Web?style=for-the-badge&logo=github&label=Star)](https://github.com/liaceboy/AI-Explorer-Web)
 [![License MIT](https://img.shields.io/badge/License-MIT-b44bff?style=for-the-badge)](#-license)
 
 <br />
 
-**[🌐 Visit Website](https://www.aiexplore.top/)** · **[🚀 Submit AI Tool — Free](https://www.aiexplore.top/submit)** · **[⭐ Star on GitHub](https://github.com/liaceboy/AI-Explorer-Web)**
+**[🌐 Visit Website](https://www.aiexplorebox.com/)** · **[🚀 Submit AI Tool — Free](https://www.aiexplorebox.com/submit)** · **[⭐ Star on GitHub](https://github.com/liaceboy/AI-Explorer-Web)**
 
 <br />
 
@@ -23,7 +23,7 @@
 
 <br />
 
-<a href="https://www.aiexplore.top/">
+<a href="https://www.aiexplorebox.com/">
   <img src="docs/screenshots/hero-homepage.png" alt="AI Explorer 首页" width="960" />
 </a>
 
@@ -116,11 +116,11 @@ AI 工具更新太快，信息太散 — ChatGPT、Claude、Cursor、Midjourney 
 
 <br />
 
-[![Submit Your AI Tool — Free](https://img.shields.io/badge/🚀_Submit_Your_AI_Tool-永久免费收录-39ff14?style=for-the-badge&logo=rocket&logoColor=white)](https://www.aiexplore.top/submit)
+[![Submit Your AI Tool — Free](https://img.shields.io/badge/🚀_Submit_Your_AI_Tool-永久免费收录-39ff14?style=for-the-badge&logo=rocket&logoColor=white)](https://www.aiexplorebox.com/submit)
 
 <br />
 
-**[→ aiexplore.top/submit](https://www.aiexplore.top/submit)**
+**[→ aiexplorebox.com/submit](https://www.aiexplorebox.com/submit)**
 
 </div>
 
@@ -143,7 +143,7 @@ AI 工具更新太快，信息太散 — ChatGPT、Claude、Cursor、Midjourney 
 
 ## ✦ Getting Started
 
-本仓库是 [AI Explorer](https://www.aiexplore.top/) 的前端 **UI Showcase**，使用 Mock 数据复刻首页导航与站内搜索。
+本仓库是 [AI Explorer](https://www.aiexplorebox.com/) 的前端 **UI Showcase**，使用 Mock 数据复刻首页导航与站内搜索。
 
 ### 环境要求
 
@@ -180,7 +180,7 @@ src/
 └── App.tsx
 ```
 
-| | 本仓库 | [aiexplore.top](https://www.aiexplore.top/) |
+| | 本仓库 | [aiexplorebox.com](https://www.aiexplorebox.com/) |
 | --- | --- | --- |
 | 定位 | 开源 UI Showcase | 完整线上产品 |
 | 数据 | Mock | 实时目录与内容 |
@@ -191,57 +191,57 @@ src/
 
 ## ✦ Product Tour
 
-> 截图来自 **[aiexplore.top](https://www.aiexplore.top/)** 线上产品
+> 截图来自 **[aiexplorebox.com](https://www.aiexplorebox.com/)** 线上产品
 
 <br />
 
 #### 01 · AI 工具导航
 
-<a href="https://www.aiexplore.top/tools">
+<a href="https://www.aiexplorebox.com/tools">
   <img src="docs/screenshots/module-1-tools.png" alt="AI 工具导航" width="960" />
 </a>
 
-<p align="center"><strong><a href="https://www.aiexplore.top/tools">Explore AI Tools →</a></strong></p>
+<p align="center"><strong><a href="https://www.aiexplorebox.com/tools">Explore AI Tools →</a></strong></p>
 
 <br />
 
 #### 02 · AI 工具排行榜
 
-<a href="https://www.aiexplore.top/rankings">
+<a href="https://www.aiexplorebox.com/rankings">
   <img src="docs/screenshots/module-2-rankings.png" alt="AI 工具排行榜" width="960" />
 </a>
 
-<p align="center"><strong><a href="https://www.aiexplore.top/rankings">View Rankings →</a></strong></p>
+<p align="center"><strong><a href="https://www.aiexplorebox.com/rankings">View Rankings →</a></strong></p>
 
 <br />
 
 #### 03 · AI Prompt 库
 
-<a href="https://www.aiexplore.top/prompt-generator?mode=chat">
+<a href="https://www.aiexplorebox.com/prompt-generator?mode=chat">
   <img src="docs/screenshots/module-3-prompt-library.png" alt="AI Prompt 库" width="960" />
 </a>
 
-<p align="center"><strong><a href="https://www.aiexplore.top/prompt-generator?mode=chat">Browse Prompt Library →</a></strong></p>
+<p align="center"><strong><a href="https://www.aiexplorebox.com/prompt-generator?mode=chat">Browse Prompt Library →</a></strong></p>
 
 <br />
 
 #### 04 · AI 绘画提示词生成器
 
-<a href="https://www.aiexplore.top/prompt-generator">
+<a href="https://www.aiexplorebox.com/prompt-generator">
   <img src="docs/screenshots/module-4-drawing-prompt.png" alt="AI 绘画提示词生成器" width="960" />
 </a>
 
-<p align="center"><strong><a href="https://www.aiexplore.top/prompt-generator">Open Prompt Generator →</a></strong></p>
+<p align="center"><strong><a href="https://www.aiexplorebox.com/prompt-generator">Open Prompt Generator →</a></strong></p>
 
 <br />
 
 #### 05 · AI 资讯 & 学习中心
 
-<a href="https://www.aiexplore.top/articles">
+<a href="https://www.aiexplorebox.com/articles">
   <img src="docs/screenshots/module-5-articles.png" alt="AI 资讯中心" width="960" />
 </a>
 
-<p align="center"><strong><a href="https://www.aiexplore.top/articles">AI News →</a></strong> · <strong><a href="https://www.aiexplore.top/learning">Learning Hub →</a></strong></p>
+<p align="center"><strong><a href="https://www.aiexplorebox.com/articles">AI News →</a></strong> · <strong><a href="https://www.aiexplorebox.com/learning">Learning Hub →</a></strong></p>
 
 <br />
 
@@ -256,7 +256,7 @@ src/
 | | |
 |:---|:---|
 | ✅ | AI 工具目录 · 7 大分类 · 排行榜 |
-| ✅ | Prompt 工具 · AI News · [免费提交入口](https://www.aiexplore.top/submit) |
+| ✅ | Prompt 工具 · AI News · [免费提交入口](https://www.aiexplorebox.com/submit) |
 | 🚧 | GitHub UI Showcase 持续对齐官网 |
 
 ### P0 · 止血（ROI 极高 · 半天内）
@@ -330,7 +330,7 @@ src/
 ## ✦ License
 
 MIT — UI Showcase 源码可自由参考与 Fork。  
-网站内容与工具目录版权归 [AI Explorer](https://www.aiexplore.top/) 所有。
+网站内容与工具目录版权归 [AI Explorer](https://www.aiexplorebox.com/) 所有。
 
 <br />
 
@@ -339,11 +339,11 @@ MIT — UI Showcase 源码可自由参考与 Fork。
 <div align="center">
 
 [![Star on GitHub](https://img.shields.io/badge/⭐_Star-000000?style=for-the-badge&logo=github)](https://github.com/liaceboy/AI-Explorer-Web)
-[![Visit Website](https://img.shields.io/badge/🌐_Website-aiexplore.top-00e5ff?style=for-the-badge)](https://www.aiexplore.top/)
-[![Submit AI Tool](https://img.shields.io/badge/🚀_Submit-Free-39ff14?style=for-the-badge)](https://www.aiexplore.top/submit)
+[![Visit Website](https://img.shields.io/badge/🌐_Website-aiexplorebox.com-00e5ff?style=for-the-badge)](https://www.aiexplorebox.com/)
+[![Submit AI Tool](https://img.shields.io/badge/🚀_Submit-Free-39ff14?style=for-the-badge)](https://www.aiexplorebox.com/submit)
 
 <br />
 
-© 2026 [AI Explorer](https://www.aiexplore.top/) · [Contact](https://www.aiexplore.top/contact)
+© 2026 [AI Explorer](https://www.aiexplorebox.com/) · [Contact](https://www.aiexplorebox.com/contact)
 
 </div>

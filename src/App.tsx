@@ -140,7 +140,7 @@ export default function App() {
             <p>
               {t('精选 AI 工具导航与工作流指南', 'Curated AI tools & workflow guides')}
               {' · '}
-              <a href="https://www.aiexplore.top/" target="_blank" rel="noopener noreferrer">aiexplore.top</a>
+              <a href="https://www.aiexplorebox.com/" target="_blank" rel="noopener noreferrer">aiexplorebox.com</a>
             </p>
           </div>
         </footer>
