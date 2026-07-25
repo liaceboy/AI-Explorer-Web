@@ -3,6 +3,7 @@ import CategoryTabs from './components/CategoryTabs';
 import Header from './components/Header';
 import SearchAgent from './components/SearchAgent';
 import ToolCard from './components/ToolCard';
+import { SITE_HOST, SITE_URLS } from './config/site';
 import { CATEGORIES, CATEGORY_MAP, TOOLS, type CategoryId } from './data/tools';
 import { useLang } from './hooks/useLang';
 
@@ -140,7 +141,9 @@ export default function App() {
             <p>
               {t('精选 AI 工具导航与工作流指南', 'Curated AI tools & workflow guides')}
               {' · '}
-              <a href="https://www.aiexplorebox.com/" target="_blank" rel="noopener noreferrer">aiexplorebox.com</a>
+              <a href={SITE_URLS.home} target="_blank" rel="noopener noreferrer">{SITE_HOST}</a>
+              {' · '}
+              <a href={SITE_URLS.submit} target="_blank" rel="noopener noreferrer">{t('提交工具', 'Submit Tool')}</a>
             </p>
           </div>
         </footer>

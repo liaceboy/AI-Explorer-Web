@@ -94,6 +94,16 @@ a { color: inherit; }
   border-color: rgba(0, 229, 255, 0.25);
 }
 
+.gh-nav-submit {
+  color: #39ff14;
+  border-color: rgba(57, 255, 20, 0.25);
+}
+
+.gh-nav-submit:hover {
+  color: #39ff14;
+  background: rgba(57, 255, 20, 0.08);
+}
+
 .gh-nav-divider {
   width: 1px;
   height: 18px;
