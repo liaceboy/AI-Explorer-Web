@@ -3,6 +3,7 @@ import CategoryTabs from './components/CategoryTabs';
 import Header from './components/Header';
 import SearchAgent from './components/SearchAgent';
 import ToolCard from './components/ToolCard';
+import ToolList from './components/ToolList';
 import { SITE_HOST, SITE_URLS } from './config/site';
 import { CATEGORIES, CATEGORY_MAP, TOOLS, type CategoryId } from './data/tools';
 import { useLang } from './hooks/useLang';
@@ -108,7 +109,7 @@ export default function App() {
                             total={catTools.length}
                           />
                           <div className="tools-grid">
-                            {catTools.slice(0, 8).map(tool => (
+                            {catTools.map(tool => (
                               <ToolCard key={tool.id} tool={tool} lang={lang} />
                             ))}
                           </div>
@@ -130,6 +131,17 @@ export default function App() {
                     </div>
                   </section>
                 )}
+                <section className="home-section" id="tool-list-section">
+                  <CatHeader
+                    label={t('📋 工具介绍', '📋 Tool Directory')}
+                    color="#00e5ff"
+                    total={category === 'all' ? TOOLS.length : filteredTools.length}
+                  />
+                  <ToolList
+                    tools={category === 'all' ? TOOLS : filteredTools}
+                    lang={lang}
+                  />
+                </section>
               </div>
             </>
           )}
