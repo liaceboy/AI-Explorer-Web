@@ -42,7 +42,7 @@
 | [Why AI Explorer](#-why-ai-explorer) | [Features](#-features) |
 | [Submit Your AI Tool](#-submit-your-ai-tool) | [Perfect For](#-perfect-for) |
 | [Getting Started](#-getting-started) | [Product Tour](#-product-tour) |
-| [Roadmap](#-roadmap) | [FAQ](#-faq) |
+| [FAQ](#-faq) | |
 
 <br />
 
@@ -242,55 +242,6 @@ src/
 </a>
 
 <p align="center"><strong><a href="https://www.aiexplorebox.com/articles">AI News →</a></strong> · <strong><a href="https://www.aiexplorebox.com/learning">Learning Hub →</a></strong></p>
-
-<br />
-
----
-
-## ✦ Roadmap
-
-> 按 **ROI × 工作量** 优先级推进 — 先止血 → 救回自然搜索 → 内容获客 → 增长飞轮
-
-### 已上线 ✅
-
-| | |
-|:---|:---|
-| ✅ | AI 工具目录 · 7 大分类 · 排行榜 |
-| ✅ | Prompt 工具 · AI News · [免费提交入口](https://www.aiexplorebox.com/submit) |
-| 🚧 | GitHub UI Showcase 持续对齐官网 |
-
-### P0 · 止血（ROI 极高 · 半天内）
-
-| 动作 | ROI | 工作量 | 状态 |
-|:---|:---:|:---:|:---:|
-| 修复 robots.txt，解封 AI 爬虫 | 🔥极高 | 10 分钟 | 📋 |
-| 修复首页重复渲染 | 🔥极高 | 半天 | 📋 |
-| 补 favicon | 高 | 5 分钟 | 📋 |
-| 清理导航冗余入口 | 中 | 10 分钟 | 📋 |
-
-### P1 · 救回自然搜索（ROI 极高 · 第 1 周）
-
-| 动作 | ROI | 工作量 | 状态 |
-|:---|:---:|:---:|:---:|
-| 首页改 SSR / ISR 预渲染 | 🔥极高 | 1 天 | 📋 |
-| 统一工具数量口径 | 高 | 半天 | 📋 |
-| 工具图标自建 CDN + 本地兜底 | 高 | 1 天 | 📋 |
-
-### P2 · 内容获客（ROI 极高 · 第 2–4 周）
-
-| 动作 | ROI | 工作量 | 状态 |
-|:---|:---:|:---:|:---:|
-| 工具详情页 + 结构化数据 | 🔥极高 | 3–5 天 | 📋 |
-| 对比页 / 选型页（X vs Y） | 高 | 持续 | 📋 |
-| 程序化 SEO（分类 × 场景落地页） | 高 | 1 周 | 📋 |
-
-### P3 · 增长飞轮（持续）
-
-| 动作 | ROI | 工作量 | 状态 |
-|:---|:---:|:---:|:---:|
-| AEO：llms.txt + FAQ 结构化数据 | 高 | 1–2 天 | 📋 |
-| 提交工具飞轮（UGC + 反链） | 中 | 已有基础 | 🚧 |
-| 监测闭环（GSC + 分析） | 中 | 半天 | 📋 |
 
 <br />
 
