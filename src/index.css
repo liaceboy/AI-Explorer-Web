@@ -391,6 +391,10 @@ a { color: inherit; }
   color: var(--accent);
 }
 
+.tool-list-group + .tool-list-group {
+  margin-top: 28px;
+}
+
 /* ── Category header ── */
 .cat-header { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
 

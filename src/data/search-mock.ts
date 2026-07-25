@@ -1,4 +1,5 @@
 import type { SearchResultItem } from '../types/search';
+import { SITE_URLS } from '../config/site';
 import { TOOLS } from './tools';
 
 function matchText(text: string, q: string): boolean {
@@ -11,7 +12,7 @@ function toolToResult(t: typeof TOOLS[0]): SearchResultItem {
     id: `tool-${t.id}`,
     type: 'tool',
     title: t.name,
-    url: t.url,
+    url: SITE_URLS.toolDetail(t.id),
     snippet: t.desc,
     source: t.domain,
   };

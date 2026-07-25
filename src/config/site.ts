@@ -8,6 +8,7 @@ export const SITE_URLS = {
   rankings: `${SITE_ORIGIN}/rankings`,
   articles: `${SITE_ORIGIN}/articles`,
   contact: `${SITE_ORIGIN}/contact`,
+  toolDetail: (id: string) => `${SITE_ORIGIN}/tool/${id}`,
 } as const;
 
 export const SITE_HOST = 'aiexplorebox.com';

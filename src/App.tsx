@@ -132,15 +132,31 @@ export default function App() {
                   </section>
                 )}
                 <section className="home-section" id="tool-list-section">
-                  <CatHeader
-                    label={t('📋 工具介绍', '📋 Tool Directory')}
-                    color="#00e5ff"
-                    total={category === 'all' ? TOOLS.length : filteredTools.length}
-                  />
-                  <ToolList
-                    tools={category === 'all' ? TOOLS : filteredTools}
-                    lang={lang}
-                  />
+                  {category === 'all' ? (
+                    CATEGORIES.map(cat => {
+                      const catTools = TOOLS.filter(tool => tool.category === cat.id);
+                      if (!catTools.length) return null;
+                      return (
+                        <div key={cat.id} className="tool-list-group">
+                          <CatHeader
+                            label={lang === 'zh' ? cat.labelZh : cat.labelEn}
+                            color={cat.color}
+                            total={catTools.length}
+                          />
+                          <ToolList tools={catTools} lang={lang} />
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <>
+                      <CatHeader
+                        label={t('📋 工具介绍', '📋 Tool Directory')}
+                        color={CATEGORY_MAP[category].color}
+                        total={filteredTools.length}
+                      />
+                      <ToolList tools={filteredTools} lang={lang} />
+                    </>
+                  )}
                 </section>
               </div>
             </>

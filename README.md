@@ -189,30 +189,30 @@ src/
 
 | 工具 | 分类 | 介绍 |
 | --- | --- | --- |
-| ChatGPT | AI 工具 | OpenAI 旗舰对话 AI，支持 GPT-4o 与多模态 |
-| Claude | AI 工具 | Anthropic 长上下文 AI 助手，擅长写作与分析 |
-| Gemini | AI 工具 | Google 多模态 AI，深度整合搜索与 Workspace |
-| DeepSeek | AI 工具 | 国产开源大模型，编程与推理能力突出 |
-| Perplexity | AI 工具 | AI 搜索引擎，带引用来源的实时回答 |
-| Hugging Face | AI 工具 | 开源模型社区与 Inference API |
-| Cursor | 开发 & 技术 | AI 原生代码编辑器，Agent 自动改代码 |
-| GitHub Copilot | 开发 & 技术 | IDE 内联代码补全与 Chat 助手 |
-| v0 | 开发 & 技术 | Vercel AI UI 生成器，描述即可出 React 组件 |
-| Replit | 开发 & 技术 | 云端 IDE + AI Agent 一键部署 |
-| Midjourney | 设计 & 创意 | Discord 驱动的 AI 艺术图像生成 |
-| Figma AI | 设计 & 创意 | 设计工具内置 AI 布局与文案辅助 |
-| Canva | 设计 & 创意 | Magic Design 一键生成海报与社交素材 |
-| DALL·E 3 | 设计 & 创意 | OpenAI 文生图，ChatGPT 内置 |
-| Runway | 媒体 & 社交 | Gen-3 视频生成与 AI 剪辑套件 |
-| Suno | 媒体 & 社交 | 文字生成完整歌曲，含人声与编曲 |
-| ElevenLabs | 媒体 & 社交 | 逼真 AI 语音合成与克隆 |
-| Notion AI | 效率 & 工具 | 笔记工作区内置 AI 写作与总结 |
-| Gamma | 效率 & 工具 | AI 一键生成演示文稿与网页 |
-| tldraw | 效率 & 工具 | 白板 + AI 草图转 UI 原型 |
-| Khanmigo | 学习 & 知识 | Khan Academy AI 导师，个性化学习 |
-| Coursera Coach | 学习 & 知识 | 课程平台 AI 学习助手 |
-| Vercel | 云服务 | 前端部署平台，AI SDK 与 v0 生态 |
-| Supabase | 云服务 | 开源 Firebase 替代，含 Vector 与 Edge Functions |
+| [ChatGPT](https://www.aiexplorebox.com/tool/chatgpt) | AI 工具 | OpenAI 旗舰对话 AI，支持 GPT-4o 与多模态 |
+| [Claude](https://www.aiexplorebox.com/tool/claude) | AI 工具 | Anthropic 长上下文 AI 助手，擅长写作与分析 |
+| [Gemini](https://www.aiexplorebox.com/tool/gemini) | AI 工具 | Google 多模态 AI，深度整合搜索与 Workspace |
+| [DeepSeek](https://www.aiexplorebox.com/tool/deepseek) | AI 工具 | 国产开源大模型，编程与推理能力突出 |
+| [Perplexity](https://www.aiexplorebox.com/tool/perplexity) | AI 工具 | AI 搜索引擎，带引用来源的实时回答 |
+| [Hugging Face](https://www.aiexplorebox.com/tool/huggingface) | AI 工具 | 开源模型社区与 Inference API |
+| [Cursor](https://www.aiexplorebox.com/tool/cursor) | 开发 & 技术 | AI 原生代码编辑器，Agent 自动改代码 |
+| [GitHub Copilot](https://www.aiexplorebox.com/tool/github-copilot) | 开发 & 技术 | IDE 内联代码补全与 Chat 助手 |
+| [v0](https://www.aiexplorebox.com/tool/v0) | 开发 & 技术 | Vercel AI UI 生成器，描述即可出 React 组件 |
+| [Replit](https://www.aiexplorebox.com/tool/replit) | 开发 & 技术 | 云端 IDE + AI Agent 一键部署 |
+| [Midjourney](https://www.aiexplorebox.com/tool/midjourney) | 设计 & 创意 | Discord 驱动的 AI 艺术图像生成 |
+| [Figma AI](https://www.aiexplorebox.com/tool/figma-ai) | 设计 & 创意 | 设计工具内置 AI 布局与文案辅助 |
+| [Canva](https://www.aiexplorebox.com/tool/canva) | 设计 & 创意 | Magic Design 一键生成海报与社交素材 |
+| [DALL·E 3](https://www.aiexplorebox.com/tool/dalle) | 设计 & 创意 | OpenAI 文生图，ChatGPT 内置 |
+| [Runway](https://www.aiexplorebox.com/tool/runway) | 媒体 & 社交 | Gen-3 视频生成与 AI 剪辑套件 |
+| [Suno](https://www.aiexplorebox.com/tool/suno) | 媒体 & 社交 | 文字生成完整歌曲，含人声与编曲 |
+| [ElevenLabs](https://www.aiexplorebox.com/tool/elevenlabs) | 媒体 & 社交 | 逼真 AI 语音合成与克隆 |
+| [Notion AI](https://www.aiexplorebox.com/tool/notion-ai) | 效率 & 工具 | 笔记工作区内置 AI 写作与总结 |
+| [Gamma](https://www.aiexplorebox.com/tool/gamma) | 效率 & 工具 | AI 一键生成演示文稿与网页 |
+| [tldraw](https://www.aiexplorebox.com/tool/tldraw) | 效率 & 工具 | 白板 + AI 草图转 UI 原型 |
+| [Khanmigo](https://www.aiexplorebox.com/tool/khan) | 学习 & 知识 | Khan Academy AI 导师，个性化学习 |
+| [Coursera Coach](https://www.aiexplorebox.com/tool/coursera) | 学习 & 知识 | 课程平台 AI 学习助手 |
+| [Vercel](https://www.aiexplorebox.com/tool/vercel) | 云服务 | 前端部署平台，AI SDK 与 v0 生态 |
+| [Supabase](https://www.aiexplorebox.com/tool/supabase-demo) | 云服务 | 开源 Firebase 替代，含 Vector 与 Edge Functions |
 
 <br />
 

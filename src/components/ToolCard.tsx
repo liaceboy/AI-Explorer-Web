@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { SITE_URLS } from '../config/site';
 import type { Tool } from '../data/tools';
 import { CATEGORY_MAP } from '../data/tools';
 import type { Lang } from '../hooks/useLang';
@@ -14,7 +15,7 @@ export default function ToolCard({ tool, lang }: Props) {
 
   return (
     <a
-      href={tool.url}
+      href={SITE_URLS.toolDetail(tool.id)}
       target="_blank"
       rel="noopener noreferrer"
       className="tool-card"
